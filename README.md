@@ -1,15 +1,20 @@
-# lowercase-keys
+# lowercase-keys-object
 Lowercase the keys of an object. It is useful for oracledb.
+
 
 ## Installation
 
-`$ npm install --save lowercase-keys`
+`$ npm install --save lowercase-keys-object`
+
+or
+
+`$ yarn add lowercase-keys-object`
 
 
 ## Usage
 
 ```js
-const lowercaseKeys = require('./index');
+const lowerKeys = require('lowercase-keys-object');
 
 const employee = {
 	ID: 127,
@@ -18,9 +23,11 @@ const employee = {
 	salary: 1500
 };
 
-const res = lowercaseKeys(employee);
+const res = lowerKeys(employee);
 
 console.log(res);
+
+// { id: 127, first_name: 'Huynh', last_name: 'Ha', salary: 1500 }
 ```
 
 ## API
@@ -28,3 +35,7 @@ console.log(res);
 ### lowercaseKeys(object)
 
 Returns a new object which keys is/are lowercased.
+
+
+## Related
+[uppercase-keys-object]()
