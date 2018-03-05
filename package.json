@@ -1,6 +1,6 @@
 {
   "name": "lowercase-keys-object",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Lowercase the keys of an object",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,9 @@
     "lower-case",
     "case",
     "keys",
-    "key"
+    "key",
+    "browser",
+    "browserify"
   ],
   "author": {
     "name": "huynhsamha",
