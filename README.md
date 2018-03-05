@@ -32,10 +32,10 @@ console.log(res);
 
 ## API
 
-### lowercaseKeys(object)
+### lowerKeys(object)
 
 Returns a new object which keys is/are lowercased.
 
 
 ## Related
-[uppercase-keys-object]()
+[uppercase-keys-object](https://github.com/huynhsamha/uppercase-keys-object)

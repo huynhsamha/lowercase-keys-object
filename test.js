@@ -1,4 +1,4 @@
-const lowercaseKeys = require('./index');
+const lowerKeys = require('./index');
 
 const employee = {
 	ID: 127,
@@ -7,6 +7,6 @@ const employee = {
 	salary: 1500
 };
 
-const res = lowercaseKeys(employee);
+const res = lowerKeys(employee);
 
 console.log(res);
