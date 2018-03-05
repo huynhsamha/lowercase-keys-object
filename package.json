@@ -1,5 +1,5 @@
 {
-  "name": "lowercase-keys",
+  "name": "lowercase-keys-object",
   "version": "1.0.0",
   "description": "Lowercase the keys of an object",
   "main": "index.js",
