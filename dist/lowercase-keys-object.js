@@ -8,5 +8,3 @@ function lowerKeys(obj) {
 	}
 	return res;
 }
-
-module.exports = lowerKeys;
