@@ -24,18 +24,36 @@ or
 ```js
 const lowerKeys = require('lowercase-keys-object');
 
-const employee = {
-	ID: 127,
-	FIRST_Name: 'huynh',
-	last_NAME: 'ha',
-	salary: 1500
+const object = {
+	camelCase: 1,
+	UPPERCASE: 2,
+	lowercase: 3,
+	snake_case: 4,
+	PascalCase: 5,
+	'Title Case': 6,
+	'dot.case': 7,
+	'param-case': 8,
+	'Sentence case': 9,
+	'path/case': 10,
+	'Header-Case': 11
 };
 
-const res = lowerKeys(employee);
+const res = lowerKeys(object);
 
 console.log(res);
-
-// { id: 127, first_name: 'huynh', last_name: 'ha', salary: 1500 }
+/**
+{ camelcase: 1,
+  uppercase: 2,
+  lowercase: 3,
+  snake_case: 4,
+  pascalcase: 5,
+  'title case': 6,
+  'dot.case': 7,
+  'param-case': 8,
+  'sentence case': 9,
+  'path/case': 10,
+  'header-case': 11 }
+ */
 
 console.log(lowerKeys(null)); // null
 console.log(lowerKeys(undefined)); // null
@@ -55,18 +73,27 @@ console.log(lowerKeys(undefined)); // null
 ##### Usage
 ```html
 <script>
-	const employee = {
-		ID: 127,
-		FIRST_Name: 'Huynh',
-		last_NAME: 'Ha',
-		salary: 1500
+
+	const object = {
+		camelCase: 1,
+		UPPERCASE: 2,
+		lowercase: 3,
+		snake_case: 4,
+		PascalCase: 5,
+		'Title Case': 6,
+		'dot.case': 7,
+		'param-case': 8,
+		'Sentence case': 9,
+		'path/case': 10,
+		'Header-Case': 11
 	};
 
-	const res = lowerKeys(employee);
-
+	const res = lowerKeys(object);
+	
 	console.log(res);
 	console.log(lowerKeys(null)); // null
 	console.log(lowerKeys(undefined)); // null
+
 </script>
 ```
 
@@ -80,6 +107,8 @@ Returns a new object which keys is/are lowercased.
 ## Related
 + [uppercase-keys-object](https://github.com/huynhsamha/uppercase-keys-object)
 + [camelcase-keys-object](https://github.com/huynhsamha/camelcase-keys-object)
++ [snakecase-keys-object](https://github.com/huynhsamha/snakecase-keys-object)
+
 
 
 [npm-image]: https://img.shields.io/npm/v/lowercase-keys-object.svg?style=flat
