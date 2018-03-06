@@ -3,6 +3,8 @@ Lowercase the keys of an object. Use for node.js and browser
 
 It is useful for [oracledb](https://github.com/oracle/node-oracledb).
 
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][downloads-image]][downloads-url]
 
 ## Installation
 
