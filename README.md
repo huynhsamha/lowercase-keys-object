@@ -1,10 +1,12 @@
 # lowercase-keys-object
+
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][downloads-image]][downloads-url]
+
 Lowercase the keys of an object. Use for node.js and browser
 
 It is useful for [oracledb](https://github.com/oracle/node-oracledb).
 
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][downloads-image]][downloads-url]
 
 ## Installation
 
@@ -75,3 +77,9 @@ Returns a new object which keys is/are lowercased.
 
 ## Related
 [uppercase-keys-object](https://github.com/huynhsamha/uppercase-keys-object)
+
+
+[npm-image]: https://img.shields.io/npm/v/lowercase-keys-object.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/lowercase-keys-object
+[downloads-image]: https://img.shields.io/npm/dm/lowercase-keys-object.svg?style=flat
+[downloads-url]: https://www.npmjs.com/package/lowercase-keys-object
